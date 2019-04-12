@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>::. Business Intelli .::</title>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,300italic,300,400italic,500,700,900" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/circle.css">
+    <link href="css/stylesheet.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+</head>
+
+<body>
+<div class="main_wraper">
+ <div class="bg1"></div>
+    
+<div class="dashboard">
+	
+    <div class="table table_a">
+		<h1>TimeSheet</h1>    
+		
+		<div class="timeHead">
+			<p>Timesheet entry enabled till 5th March 2017</p>
+			<i class="fa fa-bullhorn"></i>
+		</div>
+		<div class="timesheetWrap">
+			<div class="timeLeft">
+            	<div class="some_datepicker"></div>
+				<div class="helpText">Help text message here....</div>
+				<div class="timeInn">
+					<ul>
+						<li><i class="fa fa-hourglass" aria-hidden="true"></i>Filled hours</li>
+						<li><i class="fa fa-hourglass-o" aria-hidden="true"></i>Not filled hours</li>
+						<li><i class="fa fa-film" aria-hidden="true"></i>Holyday</li>
+						<li><i class="fa fa-paperclip" aria-hidden="true"></i>Down.. this month</li>
+					</ul>
+				</div>
+			</div>
+			<div class="timeRight">
+				<h3>30th January 2017</h3>
+				<div class="entry">
+					<div class="entryHead">
+						<select>
+							<option>Project 1</option>
+							<option>Project 2</option>
+							<option>Project 3</option>
+							<option>Project 4</option>
+						</select>
+						<span id="addtask"><i class="fa fa-plus"></i>Add Task</span>
+						<div class="clear"></div>
+					</div>
+					
+					<div class="entryCta">
+						<div class="entryCtaLeft">
+							<p>Task name here...</p>
+							<span>Task Descr here....</span>
+						</div>
+						<div class="entryCtaRight">
+							<input type="text" placeholder="HH:MM" />
+						</div>
+						<div class="clear"></div>
+					</div>
+					
+					<div class="entryCta">
+						<div class="entryCtaLeft">
+							<p>Task name here...</p>
+							<span>Task Descr here....</span>
+						</div>
+						<div class="entryCtaRight">
+							<input type="text" placeholder="HH:MM" />
+						</div>
+						<div class="clear"></div>
+					</div>
+					
+					<div class="entryCta">
+						<div class="entryCtaLeft">
+							<p>Task name here...</p>
+							<span>Task Descr here....</span>
+						</div>
+						<div class="entryCtaRight">
+							<input type="text" placeholder="HH:MM" />
+						</div>
+						<div class="clear"></div>
+					</div>	
+					
+					<div class="entryTotal">Total : <span>45 hours</span></div>												
+					<div class="addTaskWrap">
+						<h3>Add Task</h3>
+						<span>
+							<label>Task Name</label>
+						<select>
+							<option>Project 1</option>
+							<option>Project 2</option>
+							<option>Project 3</option>
+							<option>Project 4</option>
+						</select>							
+						</span>	
+						<span>
+							<label>Task Details</label>
+						<select>
+							<option>Project 1</option>
+							<option>Project 2</option>
+							<option>Project 3</option>
+							<option>Project 4</option>
+						</select>							
+						</span>	
+						<input type="button" value="Add Task">
+						<input class="cancel" type="button" value="Cancel" id="taskcan">
+					</div>
+					
+				</div>
+				<div class="entryBot">
+					<span>
+						<label><input type="radio" name="a"> Copy this day's timesheet to other day/days</label>
+						<label><input type="radio" name="a"> Copy this day's efforts to the current week</label>
+						<label><input type="radio" name="a"> Copy this day's efforts to the current month</label>
+					</span>
+					<div class="btn">
+						<input type="button" value="Submit">
+						<input class="cancel" type="button" value="Reset">
+					</div>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>     
+          
+    </div>
+
+</div>          
+    
+</div>
+
+<div class="main_signout">
+	<i class="fa fa-cog"></i>
+    <div class="main_cta">
+    	<ul>
+        	<li><a href="javascript:void(0)">Setting</a></li>
+            <li><a href="sign-in.html">Sign out</a></li>
+        </ul>
+    </div>
+</div>
+
+<nav>
+	<div class="logo"><a href="index.html"><img src="images/logo.png" alt=""/></a></div>
+    <div class="userimage">
+    	<img src="images/user-female.jpg" alt=""/>
+        <div class="user_link">
+        	<a href="employees-view.html">Profile</a>
+            <a class="colo-si" href="sign-in.html">Sign out</a>
+        </div>
+    </div>
+    <div class="menu">
+    	<ul>
+        	<li><a href="index.html"><i class="fa fa-dashboard"></i>Dashboard</a></li>
+           	<li><a class="menu-act" href="timesheet.html"><i class="fa fa-dashboard"></i>Timesheet</a></li>
+            <li><a href="business-list.html"><i class="fa fa-list-alt"></i>Business Units</a></li>
+            <li><a href="employees-list.html"><i class="fa fa-users"></i>Employees</a></li>
+            <li><a href="designation.html"><i class="fa fa-dashboard"></i>Designations</a></li>
+            <li><a href="payrole.html"><i class="fa fa-file-text"></i>PayRole</a></li>
+        </ul>
+    </div>
+    <footer class="social">
+    	<ul>
+<li><a target="_blank" href="https://www.facebook.com/Business-Intelli-Solutions-515116101837128/?fref=ts"><img src="images/fb.png" alt=""/></a></li>
+<li><a target="_blank" href="https://twitter.com/BusintelliSol"><img src="images/tw.png" alt=""/></a></li>
+<li><a target="_blank" href="https://plus.google.com/u/0/111510248818685393133"><img src="images/gp.png" alt=""/></a></li>
+<li><a target="_blank" href="https://www.linkedin.com/company/1478047?trk=tyah&trkInfo=clickedVertical%3Acompany%2CclickedEntityId%3A1478047%2Cidx%3A2-1-4%2CtarId%3A1473142463189%2Ctas%3Abusiness%20intelli%20"><img src="images/in.png" alt=""/></a></li>
+<div class="clear"></div>
+        </ul>
+    </footer>
+</nav>
+  
+ <div class="footadd">
+	<div class="link">
+    	<a href="javascript:void(0)"><i class="fa fa-user"></i><b><span>Add Employe</span></b></a>
+        <a href="javascript:void(0)" class="fil-co"><i class="fa fa-file"></i><b><span>Add Document</span></b></a>
+        <div class="clear"></div>
+    </div>
+	<div class="round"></div>
+</div>  
+</body>
+
+<!--    Popup    -->
+<div class="mask"></div>
+<div class="popup">
+	<h1>Add Employe<i class="fa fa-power-off pop-c" title="Close"></i></h1>
+    <div class="popup_inn">
+    	<div class="popup_inn_cta">
+        	<label>Label text here</label>
+            <input type="text" placeholder="Enter here.." class="popfild">
+            <p>Error message here...</p>
+		</div>
+    	<div class="popup_inn_cta">
+        	<label>Label text here</label>
+            <select class="popfild popfild_a">
+            	<option>Option1</option>
+                <option>Option2</option>
+                <option>Option3</option>
+                <option>Option4</option>
+            </select>
+		</div>
+    	<div class="popup_inn_cta">
+        	<label>Label text here</label>
+            <select class="popfild popfild_a">
+            	<option>Option1</option>
+                <option>Option2</option>
+                <option>Option3</option>
+                <option>Option4</option>
+            </select>
+		</div>
+    	<div class="popup_inn_cta">
+        	<label>Label text here</label>
+            <input type="text" placeholder="Enter here.." class="popfild">
+		</div>
+    	<div class="popup_inn_cta popup_inn_cta_a">
+        	<label>Label text here</label>
+            <textarea class="popfild popfild_b"></textarea>
+		</div>        
+        <div class="clear"></div>     
+        <div class="pop_btn">
+        	<input type="button" value="Save"><input type="button" value="Cancel" class="close pop-c">
+        </div>                   
+    </div>
+</div>
+<!--    Popup    -->
+
+<script>
+// Foot link animation
+$(document).ready(function() {
+    $(".round").mouseenter(function(){
+		$(".round").addClass("round_a");
+		$(".link").addClass("link_hov");	
+	});
+	$(".footadd").mouseleave(function(){
+		$(".round").removeClass("round_a");
+		$(".link").removeClass("link_hov");
+	});	
+});
+
+// User signout
+$(document).ready(function() {
+    $(".main_signout i").click(function(){
+		$(".main_cta").slideToggle(100);	
+	});	
+    $("html").click(function(){
+		$(".main_cta").slideUp(100);	
+	});	
+    $(".main_signout").click(function(e) {
+        e.stopPropagation();
+    });			
+});
+
+// popup script
+$("#addUnit").click(function(){
+	$(".mask").fadeIn(150);	
+	$(".popup").fadeIn(100);
+});
+$(".pop-c, .mask").click(function(){
+	$(".mask").fadeOut(150);	
+	$(".popup").fadeOut(100);
+});
+	
+	
+// Add Task
+$("#addtask").click(function(){
+	$(".addTaskWrap").show();	
+});
+$("#taskcan").click(function(){
+	$(".addTaskWrap").hide();
+});
+
+
+</script>
+  
+      <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+
+    <!-- include jquery.datepicker -->
+    <script type="text/javascript" src="js/jquery.datepicker.js"></script>
+    
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var $selected = $('.selected');
+            var $start = $('.start');
+            var $toggleMode = $('.toggleMode');
+
+            var $some_datepicker = $('.some_datepicker');
+            $some_datepicker.datepicker();
+            var datepicker = jQueryDatepicker.data($some_datepicker);
+
+            var date = new Date();
+
+            $some_datepicker.on(jQueryDatepicker.event('date_selected'), function (event, date) {
+                if (date.mode == 'date') {
+                    console.log('date selected:', date);
+                } else if (date.mode == 'start_date') {
+                    console.log('start date selected:', date);
+                }
+
+                if (datepicker.isStartDateSelected()) {
+                    $start.show().html('<b>start date:</b> '+date.start_date.date.toString());
+                }
+
+                $selected.show().html('<b>date:</b> '+date.date.toString());
+            });
+
+            // If you need a date range
+            datepicker.setStartDate({
+                year: 2017,
+                month: date.getMonth()+2,
+                day: 31
+            });
+
+            datepicker.setDate({
+                year: 2017,
+                // jquery.datepicker accepts first month as 1
+                // (built-in Date() class accepts first month as 0)
+                month: date.getMonth()+2,
+                /*day: 21*/
+            });
+
+            $toggleMode.on('click', function (event) {
+                datepicker.toggleMode();
+
+                if (datepicker.getMode() == 'date') {
+                    $toggleMode.html('toggle start date selection mode');
+                } else {
+                    $toggleMode.html('toggle date selection mode');
+                }
+            });
+        });
+    </script>    
+   
+</html>
